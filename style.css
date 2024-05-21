@@ -4,16 +4,129 @@ h1 {
     font-family: "League Spartan", sans-serif;
     font-weight: 700;
     font-size: 3rem;
-    height: 100%;
-    width: 50%;
-    padding: 10%;
-    margin:
+    width: 60%;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
     font-family: "League Spartan", sans-serif;
     font-size: 20px;
     height: auto;
-    width: 100%;
+    width: 75%;
+}
 
+.conteudo-principal {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+}
+
+section {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.conteudo-secundario {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+
+.conteudo-secundario p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    color: #541c54;
+}
+
+.foto-icone {
+    background-color:#f5f2f8;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    flex-direction: row;
+    gap: 6px;
+    width: 90%;
+    height: 50%;
+    padding: 1rem;
+}
+
+.conteudo-direito {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+
+.margin-01 {
+    
+}
+.margin-02 {
+    margin-left: 60px;
+}
+.margin-03 {
+    margin-left: 120px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.apresentacao {
+    font-family: "League Spartan", sans-serif;
+    padding: 10%;
+    margin: 0;
+    gap: 2rem;
+    display: flex;
+    color: white;
+}
+
+.feedback {
+    font-family: "League Spartan", sans-serif;
+    background-color:#541c54;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.ajuste-img-nome p {
+    font-size: 16px;
+
+}
+
+.ajuste-img-nome {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ajuste-nome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ajuste-img {
+    width: 40%;
 }
